@@ -1,0 +1,158 @@
+.datapage
+{
+    margin-top: 60px;
+    min-height: 100vh;
+}
+.datapage-frame
+{
+    margin: 0px auto;
+    background-color: rgb(199, 203, 211);
+    max-width: 1100px;
+    min-height: 100vh;
+    
+    
+}
+.datapage-frame .frame-header
+{
+   text-align: center; 
+   background-color: rgb(3, 62, 77);
+   color: white;
+   padding: 10px;
+   text-transform: capitalize;
+
+}
+.datapage .datapage-frame .table-container
+{
+    width: 100%;
+    margin: auto;
+    max-height: 100vh;
+    background-color: rgb(199, 203, 211);
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-top: 10px;
+   
+}
+.datapage .datapage-frame .table-container table
+{
+    width: 100%;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    
+
+    
+    
+}
+.datapage .datapage-frame .table-container table td
+{
+    border: 2px solid gray;
+    padding: 5px;
+    /* overflow-x: auto; */
+
+    
+
+}
+.datapage .datapage-frame .table-container table th
+{
+    border: 2px solid gray;
+    padding: 5px;
+    /* overflow-x: auto; */
+    background-color: rgb(3, 62, 77);
+    color: white;
+    
+}
+.thirdData,.fourthData,.fifthData,.firstData
+{
+    text-transform: capitalize;
+    text-align: center;
+}
+/* .datapage .datapage-frame .table-container table tr
+{
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+} */
+.datapage .datapage-frame .table-container table tr:nth-child(even){
+    background-color: rgba(109, 109, 109, 0.282);
+}
+
+.datapage .datapage-frame form .search-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    margin: 10px;
+    margin-bottom: -5px;
+}
+.datapage .datapage-frame form .search-box .group
+{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.datapage .datapage-frame form .search-box .group p
+{
+    font-size: 17px;
+    color: black;
+    
+    
+}
+.datapage .datapage-frame form  .search-box .group input
+{
+    flex: 1;
+    padding: 5px;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 5px;
+} 
+.datapage .datapage-frame  form .search-box .group input.reste
+{
+    padding: 5px;
+    background-color: rgb(3, 62, 77);
+    color: white;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 5px;
+    flex: 0.3;
+    font-weight: bold;
+    align-self: flex-end;
+}
+.datapage .datapage-frame form  .search-box .group .dsafilter
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.datapage .datapage-frame form .search-box .group .dsafilter select
+{
+    flex: 1;
+    padding: 5px;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 5px;
+    flex-shrink: 1;
+}
+@media (max-width:613px)
+{
+    .datapage .datapage-frame form .search-box
+    {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+@media (max-width:703px)
+{
+    .datapage .datapage-frame .table-container table tr td
+    {
+        font-size: 13px;
+    }
+    .datapage .datapage-frame .table-container table tr th
+    {
+        font-size: 13px;
+    }
+}
