@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/interview-question-bank/static/css/main.3b391705.css",
+    "main.js": "/interview-question-bank/static/js/main.e78318b9.js",
+    "index.html": "/interview-question-bank/index.html",
+    "main.3b391705.css.map": "/interview-question-bank/static/css/main.3b391705.css.map",
+    "main.e78318b9.js.map": "/interview-question-bank/static/js/main.e78318b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b391705.css",
+    "static/js/main.e78318b9.js"
+  ]
+}
